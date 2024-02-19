@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div>
+            <button class="raise bg btn" id="bg"><span>Trocar Tema</span></button>
+        </div>
+        <video src="videos/samurai-autumn-forest-ghost-of-tsushima-HD-live.mp4" autoplay loop muted></video>
+        <div class="container">
+            <div class="seta"><img src="seta.png" alt=""></div>
+            <div class="cronometro">
+                <h1>Cronomêtro</h1>
+                <div class="time">
+                    <div id="minutes">00</div>
+                    <div id="separate">:</div>
+                    <div id="seconds">00</div>
+                    <div id="separate">:</div>
+                    <div id="milliseconds">000</div>
+                </div>
+                <div class="buttons">
+                    <button class="raise btn" id="start"><span class="mas">Start</span></button>
+                    <button class="raise btn" id="pause"><span class="mas">Pause</span></button>
+                    <button class="raise btn" id="resume"><span class="mas">Resume</span></button>
+                    <button class="raise btn" id="reset"><span class="mas">Restart</span></button>
+                </div>
+            </div>
+            <div class="relogio">
+                <h1>Relógio</h1>
+                <div class="clock">
+                    <div class="hora"></div>
+                    <div class="minutos"></div>
+                    <div class="segundos"></div>
+                    <span style="transform: rotate(30deg);">1</span>
+                    <span style="transform: rotate(60deg);">2</span>
+                    <span style="transform: rotate(90deg);">3</span>
+                    <span style="transform: rotate(120deg);">4</span>
+                    <span style="transform: rotate(150deg);">5</span>
+                    <span style="transform: rotate(180deg);">6</span>
+                    <span style="transform: rotate(210deg);">7</span>
+                    <span style="transform: rotate(240deg);">8</span>
+                    <span style="transform: rotate(270deg);">9</span>
+                    <span style="transform: rotate(300deg);">10</span>
+                    <span style="transform: rotate(330deg);">11</span>
+                    <span style="transform: rotate(0deg);">12</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <script src="scripts2.js"></script>
+</body>
+
+</html>
